@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+.vercel/
+next-env.d.ts
+*.tsbuildinfo
+src/content/generated.json
+.env*
+!.env.example
+.DS_Store
+.vercel
+data/

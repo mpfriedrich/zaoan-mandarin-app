@@ -1,0 +1,36 @@
+{
+  "name": "zaoan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "content": "node scripts/build-content.mjs",
+    "check": "node scripts/check-content.mjs",
+    "audio": "node --env-file=.env.local scripts/build-audio.mjs && node scripts/build-content.mjs",
+    "predev": "npm run content",
+    "dev": "next dev",
+    "prebuild": "npm run content",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.125.0",
+    "@neondatabase/serverless": "1.1.0",
+    "dexie": "4.4.6",
+    "dexie-react-hooks": "4.4.0",
+    "hanzi-writer": "^3.7.3",
+    "next": "16.3.5",
+    "opencc-js": "1.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "0.0.1",
+    "ts-fsrs": "5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "hanzi-writer-data": "^2.0.1",
+    "typescript": "5.9.3"
+  }
+}

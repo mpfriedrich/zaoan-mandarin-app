@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "regions": ["sin1"],
+  "crons": [
+    { "path": "/api/cron/reminder?slot=noon", "schedule": "0 4 * * *" },
+    { "path": "/api/cron/reminder?slot=evening", "schedule": "0 12 * * *" }
+  ]
+}

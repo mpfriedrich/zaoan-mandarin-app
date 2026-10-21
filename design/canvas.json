@@ -1,0 +1,28 @@
+{
+  "pages": [
+    { "id": "page-1", "name": "App-Screens" },
+    { "id": "page-2", "name": "Frühere Richtungen" }
+  ],
+  "artboards": [
+    { "file": "Main.dc.html", "title": "Heute", "x": 0, "y": 180, "w": 390, "h": 844, "page": "page-1" },
+    { "file": "HeuteDunkel.dc.html", "title": "Heute – dunkler Modus", "x": 470, "y": 180, "w": 390, "h": 844, "page": "page-1" },
+    { "file": "Satzkarte.dc.html", "title": "Lektion – Satzkarte", "x": 940, "y": 180, "w": 390, "h": 844, "page": "page-1" },
+    { "file": "Wiederholen.dc.html", "title": "Wiederholen", "x": 1410, "y": 180, "w": 390, "h": 844, "page": "page-1" },
+    { "file": "Rollenspiel.dc.html", "title": "KI-Rollenspiel", "x": 1880, "y": 180, "w": 390, "h": 844, "page": "page-1" },
+    { "file": "Einstellungen.dc.html", "title": "Einstellungen", "x": 2350, "y": 180, "w": 390, "h": 844, "page": "page-1" },
+
+    { "file": "NachtmarktHeute.dc.html", "title": "A · Nachtmarkt – Heute", "x": 0, "y": 260, "w": 390, "h": 844, "page": "page-2" },
+    { "file": "NachtmarktKarte.dc.html", "title": "A · Nachtmarkt – Satzkarte", "x": 470, "y": 260, "w": 390, "h": 844, "page": "page-2" },
+    { "file": "TuscheHeute.dc.html", "title": "B · Papier & Tusche – Heute", "x": 1060, "y": 260, "w": 390, "h": 844, "page": "page-2" },
+    { "file": "TuscheKarte.dc.html", "title": "B · Papier & Tusche – Satzkarte", "x": 1530, "y": 260, "w": 390, "h": 844, "page": "page-2" },
+    { "file": "LinienplanHeute.dc.html", "title": "C · Linienplan – Heute", "x": 2120, "y": 260, "w": 390, "h": 844, "page": "page-2" },
+    { "file": "LinienplanKarte.dc.html", "title": "C · Linienplan – Satzkarte", "x": 2590, "y": 260, "w": 390, "h": 844, "page": "page-2" }
+  ],
+  "annotations": [
+    { "id": "stil-apple", "x": 0, "y": 0, "w": 900, "page": "page-1", "text": "Stil: wie eine App von Apple – iOS-Systemschrift (SF Pro, PingFang TC für Chinesisch), Karten wie in Health, eine Farbe pro Bereich (Blau = Wiederholen, Grün = Szenarien, Lila = Rollenspiel, Orange = Tagesziel).\nHeller und dunkler Modus folgen automatisch der iPhone-Einstellung.\nPinyin steht über jedem Zeichen, Unterschiede zu vereinfachten Zeichen sind orange markiert.\nAlle Zahlen sind Beispielwerte." },
+    { "id": "richtung-a", "x": 0, "y": 0, "w": 860, "page": "page-2", "text": "A · Nachtmarkt\nDunkel, warm, energiegeladen – wie Taipei abends. Große Karten, viel Farbe, Motivation steht im Vordergrund.\nVorteil: angenehm abends und in der MRT, fühlt sich wie ein Spiel an.\nNachteil: am wenigsten ruhig; in praller Sonne schlechter lesbar." },
+    { "id": "richtung-b", "x": 1060, "y": 0, "w": 860, "page": "page-2", "text": "B · Papier & Tusche\nRuhig und redaktionell: helles Papier, schwarze Tusche, ein roter Stempel als Akzent. Die Schriftzeichen stehen groß in einer Serifenschrift im Mittelpunkt.\nVorteil: Zeichen am besten lesbar, wenig Ablenkung, wirkt hochwertig.\nNachteil: weniger verspielt – Streak und Fortschritt motivieren leiser." },
+    { "id": "richtung-c", "x": 2120, "y": 0, "w": 860, "page": "page-2", "text": "C · Linienplan\nPraktisch wie ein U-Bahn-Plan: Der Tag ist eine Strecke mit Stationen, jedes Szenario hat eine Linienfarbe. Pinyin steht direkt über jedem Zeichen, Unterschiede zu vereinfachten Zeichen sind markiert.\nVorteil: am klarsten für Anfänger, sehr gute Lesbarkeit.\nNachteil: am nüchternsten, wirkt eher wie ein Werkzeug." }
+  ],
+  "launch": { "view": "canvas", "page": "page-1" }
+}
