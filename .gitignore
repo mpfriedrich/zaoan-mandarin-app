@@ -10,3 +10,6 @@ src/content/generated.json
 .DS_Store
 .vercel
 data/
+
+# Exported design mockups (embed third-party fonts, not needed to run the app)
+design/

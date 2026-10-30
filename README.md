@@ -3,6 +3,13 @@
 A learning app built for one specific job: getting by in Taiwan. Traditional characters,
 Taiwan pronunciation, Taiwan vocabulary (捷運, not 地鐵).
 
+## About this project
+
+I built 早安 to prepare for a planned exchange semester in Taipei in 2027. I am a business student, not a software engineer: I designed the app, decided what
+it should teach and how, and built it together with AI coding assistants (Claude Code).
+`CLAUDE.md`, `AGENTS.md` and `SETUP.md` show that workflow; they are the instructions the
+assistants work from.
+
 **You can have your own copy running in about 30 minutes, without writing code.**
 Claude Code does the setup — see [GETTING-STARTED.md](GETTING-STARTED.md).
 
@@ -42,8 +49,8 @@ Learning content lives in `src/content/*.mjs` and is compiled to `generated.json
 `npm run content`. Pronunciation is checked against [CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict)
 (CC BY-SA 4.0); word levels come from the official TOCFL list. Stroke data is from
 [Hanzi Writer](https://hanziwriter.org) / Make Me a Hanzi (Arphic Public License, see
-`public/strokes/ARPHICPL.TXT`). Audio is generated with Azure Speech under the account of
-whoever builds it.
+`public/strokes/ARPHICPL.TXT`). The audio in `public/audio` is synthetic speech generated
+with Azure Speech (neural Taiwan Mandarin voices).
 
-This is a personal project shared with friends — no warranty, and you run it on your own
-API accounts.
+The code is MIT-licensed (see [LICENSE](LICENSE)). This is a personal project — no warranty,
+and you run it on your own API accounts.
